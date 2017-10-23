@@ -107,7 +107,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/Zachary%201.jpg" class="img-responsive" alt="">
+                        <img src="img/Zachary%201.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -117,7 +117,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/Super%20Rumm.jpg" class="img-responsive" alt="">
+                        <img src="img/Super%20Rumm.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -127,7 +127,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/Zachary%202.jpg" class="img-responsive" alt="">
+                        <img src="img/Zachary%202.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
             </div>
@@ -142,23 +142,51 @@
 
     <!-- Get Involved Section -->
     <section id="getinvolved">
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Get Involved</h2>
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                <div class="center-block ml-auto">
-                    <a href="https://www.facebook.com/groups/cficare/" class="btn btn-primary btn-lg active" role="button">CF I Care</a>
-                    <a href="https://www.facebook.com/zachary.rumm" class="btn btn-primary btn-lg active" role="button">Facebook</a>
-                    <a href="https://www.youtube.com/user/ubiquitous17" class="btn btn-primary btn-lg active" role="button">YouTube</a>
-                    <a href="https://twitter.com/awkward17" class="btn btn-primary btn-lg active" role="button">Twitter</a>
-                    <a href="https://plus.google.com/105868747602486075484/posts" class="btn btn-primary btn-lg active" role="button">Google+</a>
-                    <a href="http://zrummover.blogspot.com/" class="btn btn-primary btn-lg active" role="button">Blogspot</a>
-                    </div>
-            </div>
+          <ul class="list-inline intro-social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/groups/cficare/" class="btn btn-secondary btn-lg">
+                <i class="fa fa-facebook fa-fw"></i>
+                <span class="network-name">CF I Care</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/zachary.rumm" class="btn btn-secondary btn-lg">
+                <i class="fa fa-facebook fa-fw"></i>
+                <span class="network-name">Facebook</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/user/ubiquitous17" class="btn btn-secondary btn-lg">
+                <i class="fa fa-youtube fa-fw"></i>
+                <span class="network-name">YouTube</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/awkward17" class="btn btn-secondary btn-lg">
+                <i class="fa fa-twitter fa-fw"></i>
+                <span class="network-name">Twitter</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://plus.google.com/105868747602486075484/posts" class="btn btn-secondary btn-lg">
+                <i class="fa fa-google-plus fa-fw"></i>
+                <span class="network-name">Google+</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="http://zrummover.blogspot.com/" class="btn btn-secondary btn-lg">
+                <i class="fa fa-google fa-fw"></i>
+                <span class="network-name">BlogSpot</span>
+              </a>
+            </li>
+          </ul>
         </div>
     </section>
 
@@ -189,8 +217,9 @@
 
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+          <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -198,22 +227,27 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
                             <h2>Friend</h2>
                             <hr class="star-primary">
-                            <img src="img/Zachary%201.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/Zachary%201.jpg" class="img-fluid img-centered" alt="">
                             <p></p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>    
     </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+          <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -221,21 +255,26 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
                             <h2>Warrior</h2>
                             <hr class="star-primary">
-                            <img src="img/Super%20Rumm.jpg" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <img src="img/Super%20Rumm.jpg" class="img-fluid img-centered" alt="">
+                            <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>    
     </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+          <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -243,17 +282,20 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
                             <h2>Brother</h2>
                             <hr class="star-primary">
-                            <img src="img/Zachary%202.jpg" class="img-responsive img-centered" alt="">
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <img src="img/Zachary%202.jpg" class="img-fluid img-centered" alt="">
+                            <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->

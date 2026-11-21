@@ -22,11 +22,11 @@ There is no build step, no JavaScript and nothing to install.
 
 1. Edit `index.html` (the words and photos) or `css/site.css` (the look).
 2. Preview it: run `python3 -m http.server` in this folder and open <http://localhost:8000>. Opening the file directly also works, except that the video shows an error.
-3. Commit and push to `master`. The live site updates in about a minute.
+3. Commit and push to `main`. The live site updates in about a minute.
 
 ## How it's hosted
 
-- **GitHub Pages** publishes the `master` branch of this repository.
+- **GitHub Pages** publishes the `main` branch of this repository.
 - **Cloudflare** manages the domain's DNS, sits in front of the site, and redirects `http` to `https` ("Always Use HTTPS").
 - Mail to `info@zacharyrumm.org` is forwarded by Cloudflare Email Routing.
 
